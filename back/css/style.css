@@ -1,0 +1,405 @@
+
+.header {
+  height: 35px;
+}
+#toolbar-box {
+  display: none;
+}
+.submenu-box,
+div.m {
+  border: none !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+  background-color: white !important;
+}
+fieldset#filter-bar {
+  border-bottom: 0;
+}
+/* component body, whole wrapped in one big div with id */
+#nsCombrite {
+  /********************************
+   Common
+  *********************************/
+  /********************************
+   Accordion stuff
+  *********************************/
+  /*label {
+    float: none !important;
+  }*/
+  /* make article button */
+  /* adding icon to accordion list back */
+  /********************************
+   Tables
+  *********************************/
+  /********************************
+   Filter box
+  *********************************/
+  /********************************
+   Pagination
+  *********************************/
+  /********************************
+   Configuration
+  *********************************/
+}
+#nsCombrite h2 {
+  color: #421600;
+  font-size: 18px;
+  text-align: center;
+}
+#nsCombrite p {
+  color: #8C6D61;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+}
+#nsCombrite .alert {
+  font-size: 14px;
+}
+#nsCombrite .accordion {
+  margin-top: 10px;
+}
+#nsCombrite .accordion-group {
+  margin-bottom: 10px !important;
+}
+#nsCombrite .accordion-group.active .accordion-heading {
+  background-color: #F8F8F8;
+}
+#nsCombrite .accordion-group.active .accordion-heading span {
+  color: #FF660A;
+}
+#nsCombrite .accordion-heading {
+  background-color: #fff;
+  position: relative;
+  height: 45px;
+  line-height: 32px;
+}
+#nsCombrite .accordion-heading span {
+  font-weight: bold;
+  font-size: 15px;
+}
+#nsCombrite .accordion-heading:hover {
+  background: #F8F8F8;
+}
+#nsCombrite .accordion-heading:hover span {
+  color: #FF660A;
+}
+#nsCombrite a.accordion-toggle {
+  font-size: 1.1em;
+  color: #000 !important;
+}
+#nsCombrite a.accordion-toggle:hover {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+#nsCombrite .accordion-inner {
+  background-color: white;
+  padding: 0;
+  font-size: 13px;
+  border-top: 0;
+}
+#nsCombrite .button-holder {
+  text-align: center;
+  padding-top: 10px;
+}
+#nsCombrite .filter {
+  clear: both;
+}
+#nsCombrite .makeArticle {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  color: #333 !important;
+}
+#nsCombrite .makeArticle.btn-primary {
+  color: white !important;
+}
+#nsCombrite .icon-arrow-down,
+#nsCombrite .icon-arrow-up {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("bootstrap/img/glyphicons-halflings.png");
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+}
+#nsCombrite .icon-arrow-down {
+  background-position: -312px -96px;
+}
+#nsCombrite .icon-arrow-up {
+  background-position: -289px -96px;
+}
+#nsCombrite .table {
+  margin-bottom: 0;
+  border-top: 0px;
+}
+#nsCombrite .table .label-descr {
+  font-weight: bold;
+  width: 120px;
+}
+#nsCombrite .table td {
+  border-bottom: 1px solid #DDD !important;
+  padding-left: 17px;
+}
+#nsCombrite .table td:nth-last-of-type(-n+2) {
+  border-bottom: 0px solid #DDD !important;
+}
+#nsCombrite .table th {
+  border-top: 0px solid #DDD;
+  border-bottom: 1px solid #DDD !important;
+  padding-left: 17px;
+  font-weight: normal;
+  min-width: 120px;
+}
+#nsCombrite .roundedBox {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#nsCombrite a.poweredByEventbrite {
+  height: 60px;
+  width: 124px;
+  display: inline-block;
+  float: left;
+  background: url(img/eventbrite-logo.png) no-repeat;
+}
+#nsCombrite .bg-trans {
+  -webkit-animation-direction: normal;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: colours;
+  -webkit-animation-timing-function: ease;
+}
+#nsCombrite .header-unit {
+  padding: 0px 10px 0px 10px;
+  margin-bottom: 0px;
+}
+#nsCombrite .header-unit h1 {
+  font-size: 24px;
+  color: #4C5058;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+#nsCombrite .header-unit h1 span {
+  font-weight: 500;
+}
+#nsCombrite .header-unit .pad {
+  background: url(img/header-background-highlight.png);
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  max-width: 660px;
+  margin: auto;
+}
+#nsCombrite .header-unit p {
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  padding-top: 5px;
+  font-weight: 300;
+}
+#nsCombrite .header-unit .searchForm {
+  position: relative;
+  height: 38px;
+  margin-top: 0px;
+}
+#nsCombrite .header-unit input {
+  font-size: 14px;
+  color: #727272;
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  width: 70%;
+  height: 36px;
+  padding: 0px 0 0 10px;
+  margin: 0 20px 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #ccc;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  outline: none;
+}
+#nsCombrite .header-unit button {
+  text-align: center;
+  width: 27%;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  height: 38px;
+  line-height: 28px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #ff8623;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff8623), to(#ff5c02));
+  background: -webkit-linear-gradient(top, #ff8623, #ff5c02);
+  background: -ms-linear-gradient(top, #ff8623, #ff5c02);
+  background: -o-linear-gradient(top, #ff8623, #ff5c02);
+  background: -moz-linear-gradient(center top, #ff8623 0%, #ff5c02 100%);
+}
+#nsCombrite .header-unit button:after {
+  content: "Search";
+}
+#nsCombrite .info,
+#nsCombrite .total {
+  text-align: center;
+}
+#nsCombrite .info {
+  padding: 20px 0;
+}
+#nsCombrite .total {
+  color: gray;
+}
+#nsCombrite .pagination a {
+  cursor: pointer;
+}
+#nsCombrite .explanation {
+  display: block;
+  color: gray;
+  font-size: 90%;
+}
+#nsCombrite .links {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: transparent;
+  color: #748397;
+  font-size: 15px;
+}
+#nsCombrite .links a {
+  text-decoration: none;
+  color: #3B7DF0;
+  opacity: 1;
+}
+#nsCombrite .links a:hover {
+  opacity: .8;
+  transition: opacity 0.1s ease-in-out;
+  -moz-transition: opacity 0.1s ease-in-out;
+  -webkit-transition: opacity 0.1s ease-in-out;
+}
+#nsCombrite .container.roundedBox {
+  background: #fff;
+  width: 100%;
+  border-radius: 0;
+}
+#nsCombrite .container.roundedBox.config {
+  height: 73px !important;
+  border-bottom: 1px solid #E7EAED;
+  background: #fff !important;
+  width: 100%;
+}
+#nsCombrite .container.roundedBox.config img {
+  padding-top: 11px;
+  float: left;
+  margin-left: 11px;
+  width: 50px;
+  height: 50px;
+}
+#nsCombrite .container.roundedBox.config h2 {
+  float: left;
+  margin-left: 10px;
+  line-height: 73px;
+  font-size: 24px;
+  padding-left: 10px;
+}
+#nsCombrite .container.roundedBox.config .bg-trans {
+  background-image: none;
+  width: 100%;
+}
+#nsCombrite .container.roundedBox.config h2 {
+  color: #4C5058;
+}
+#nsCombrite .configarea .form-horizontal {
+  margin-top: 20px;
+}
+#nsCombrite .configarea .form-horizontal .controls {
+  float: left;
+  margin-left: 20px;
+}
+#nsCombrite .configarea .form-horizontal .control-label {
+  float: left;
+  width: 85px;
+  padding-top: 5px;
+  text-align: right;
+}
+#nsCombrite .configarea .form-horizontal .form-actions {
+  padding-left: 3%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#nsCombrite .configarea .form-horizontal fieldset {
+  height: 210px;
+}
+#nsCombrite .configarea .form-horizontal .c50 {
+  float: left;
+  width: 45%;
+}
+#nsCombrite .configarea .form-horizontal .c50.left {
+  margin-right: 6%;
+  margin-left: 3%;
+}
+#nsCombrite .configarea label.control-label {
+  font-weight: bold;
+}
+#nsCombrite .configarea legend {
+  margin-bottom: 0;
+  color: #421600;
+  border-bottom-color: #FF7A26;
+}
+#nsCombrite .configarea .input-append .add-on {
+  margin-left: -4px;
+}
+#nsCombrite .container.roundedBox .container {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}

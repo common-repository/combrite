@@ -1,0 +1,61 @@
+.cb-map {
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  position:relative;
+  height:180px;
+}
+
+.cb-map p {
+  display: none;
+}
+
+.cb-map__marker {
+  position:absolute;
+  width: 64px;
+  height: 96px;
+  background-image: url(../../assets/marker.png);
+  background-repeat: no-repeat;
+  background-size: 34px 48px;
+  background-position: 50% 50%;
+  top:50%;
+  left:50%;
+  margin:-71px 0 0 -32px;
+  transition: background-size .2s ease-in-out;
+  transition: background-position .2s ease-in-out;
+}
+
+.cb-map__marker:hover {
+  background-size: auto 64px;
+  background-position: 50% 8px;
+  transition: background-size .3s ease-in-out;
+  transition: background-position .1s ease-in-out;
+ 
+}
+
+.cb-map__image {
+  width:100%;
+  display: block;
+  height:100%;
+  background-size: cover;
+  background-position:center;
+}
+
+.cb-event-category {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  position: absolute;
+  background: #4C5058;
+  padding: 4px 25px 6px 25px;
+  top: 15px;
+  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+}
+
+.cb-event-category a {
+  text-decoration: none;
+}
+
+.cb-event-category a:hover{
+  font-weight: 400;
+}

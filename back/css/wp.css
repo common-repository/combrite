@@ -1,0 +1,48 @@
+#nsCombrite {
+	padding-top: 50px;
+}
+
+#nsCombrite a.poweredByEventbrite {
+	background: url(../img/eventbrite-logo.png) no-repeat;
+}
+
+#nsCombrite p {
+	color: #4C5058!important;
+}
+
+.accordion-body { 
+	display: none;
+}
+
+#nsCombrite .header-unit button:after {
+	content: "";
+}
+
+.loadmore {
+  padding-top: 40px;
+}
+
+#nsCombrite .header-unit button#combrite-load-more-button {
+  text-align: center;
+  width: 27%;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  margin-top: -15px;
+}
+
+.loader {
+  display:none; 
+  background: url(../img/ajax-loader.gif) no-repeat; 
+  height:16px; 
+  width:16px; 
+  z-index:999999;
+  position: absolute; 
+  right:20%; 
+  top:10px
+}
+
+#loader-loadmore {
+  display: block;
+  float: right;
+}
